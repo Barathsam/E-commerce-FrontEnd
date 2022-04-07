@@ -4,7 +4,7 @@ import LoginSignup from "../auth/LoginSignup";
 
 export const LayoutContext = createContext();
 
-const Layout = ({ children }) => {
+const Layout = ({ children }) => { 
   return (
     <Fragment>
       <div className="flex-grow">
